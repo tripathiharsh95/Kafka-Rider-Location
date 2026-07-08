@@ -39,7 +39,7 @@ The project also demonstrates **Kafka consumer group load balancing** by running
 | Module | Role | Port |
 |---|---|---|
 | **producer** | Publishes random rider status events to Kafka using a `Supplier` bean | 8080 |
-| **consumer** | Consumes rider location events using a `Consumer` bean | 8080 (and a second instance on 9091 for load-balancing demo) |
+| **consumer** | Consumes rider location events using a `Consumer` bean | 8081 (and a second instance on 9091 for load-balancing demo) |
 
 ---
 
